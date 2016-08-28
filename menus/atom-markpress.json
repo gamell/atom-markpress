@@ -1,9 +1,13 @@
 {
   "context-menu": {
-    "atom-text-editor": [
+    "atom-text-editor[data-grammar~='gfm'],atom-text-editor[data-grammar~='markdown']": [
       {
-        "label": "Toggle atom-markpress",
-        "command": "atom-markpress:toggle"
+        "label": "Markpress: Toggle Preview",
+        "command": "atom-markpress:toggle-preview"
+      },
+      {
+        "label": "Markpress: Generate",
+        "command": "atom-markpress:generate"
       }
     ]
   },
@@ -12,11 +16,19 @@
       "label": "Packages",
       "submenu": [
         {
-          "label": "atom-markpress",
+          "label": "Markpress",
           "submenu": [
             {
-              "label": "Toggle",
-              "command": "atom-markpress:toggle"
+              "label": "Toggle Preview",
+              "command": "atom-markpress:toggle-preview"
+            },
+            {
+              "label": "Generate",
+              "command": "atom-markpress:generate"
+            },
+            {
+              "label": "Configure",
+              "command": "atom-markpress:configure"
             }
           ]
         }

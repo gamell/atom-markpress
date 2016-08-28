@@ -10,7 +10,11 @@
     "html"
   ],
   "activationCommands": {
-    "atom-workspace": "atom-markpress:toggle"
+    "atom-workspace": [
+      "atom-markpress:toggle-preview",
+      "atom-markpress:generate",
+      "atom-markpress:configure"
+    ]
   },
   "repository": "https://github.com/gamell/atom-markpress",
   "license": "MIT",
