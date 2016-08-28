@@ -1,0 +1,23 @@
+{
+  "name": "atom-markpress",
+  "main": "./lib/atom-markpress",
+  "version": "0.0.0",
+  "description": "A short description of your package",
+  "keywords": [
+    "markdown",
+    "presentation",
+    "slides",
+    "html"
+  ],
+  "activationCommands": {
+    "atom-workspace": "atom-markpress:toggle"
+  },
+  "repository": "https://github.com/gamell/atom-markpress",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "markpress": "^2.0.2"
+  }
+}
